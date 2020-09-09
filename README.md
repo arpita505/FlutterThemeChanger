@@ -1,7 +1,11 @@
 # Flutter Theme Changer
 
 Flutter app made using hive and provider to change theme of the phone.
+<br><br>
+
 *Works on both iOS and Android*
+<br><br>
+
 
 <p align = "center" ><img src="readme_images/dark.png" width = "300"/>
 <img src="readme_images/light.png" width = "300" />
