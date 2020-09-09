@@ -28,6 +28,7 @@ dependencies:
   path_provider: ^1.6.11
   hive: ^1.4.3
   provider: ^4.3.2
+  day_night_switch: ^0.0.2+1
 
 dev_dependencies:
   flutter_test:
@@ -43,6 +44,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/moon.png
+    - assets/mountain1.png
+    - assets/mountain2.png
+    - assets/mountain_night.png
+    - assets/mountain2_night.png
+    - assets/cloud.png
+    - assets/cloud2.png
+    - assets/cloud3.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

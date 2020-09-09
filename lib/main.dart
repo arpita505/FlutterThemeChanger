@@ -13,7 +13,7 @@ void main() async {
   Hive.init(appDocumentDirectory.path);
 
   final settings = await Hive.openBox('settings');
-  bool isLightTheme = settings.get('isLightTheme') ?? true;
+  bool isLightTheme = settings.get('isLightTheme') ?? false;
 
   print(isLightTheme);
 
